@@ -26,7 +26,22 @@ class GradientContainer extends StatelessWidget {
         ),
       ),
       child: const Center(
-        child: DiceRoller()
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              '6 Sided\nDice Roller',
+              style: TextStyle(
+                fontSize: 32,
+                fontWeight: FontWeight.bold,
+                color: Color.fromARGB(255, 212, 212, 212),
+              ),
+              textAlign: TextAlign.center,
+            ),
+            SizedBox(height: 100),
+            DiceRoller(),
+          ],
+        ),
       ),
     );
   }
