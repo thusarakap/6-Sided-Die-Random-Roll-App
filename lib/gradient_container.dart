@@ -38,7 +38,7 @@ class GradientContainer extends StatelessWidget {
               ),
               textAlign: TextAlign.center,
             ),
-            SizedBox(height: 100),
+            SizedBox(height: 80),
             DiceRoller(),
           ],
         ),
